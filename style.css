@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body{
+    margin:10vh;
+    background-color: black;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size:2.3em;
+    color:rgb(143, 205, 255);
+    margin-bottom:1vh;
+    font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color:rgb(143, 205, 255);
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 75vw;
+    padding: 6vh 15vw 8vh 15vw;
+}
+
+input{
+    width:45vw;
+    height: 5vh;
+    
+    border-bottom: 3px solid rgb(143, 205, 255);
+    background-color: transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+
+    margin-bottom: 4vh; 
+    padding-left:2vw;
+
+}
+
+span{
+    display:none;
+
+    color:rgb(252, 19, 19);
+    border: 1px solid rgb(252, 19, 19);
+    font-size:1.2em;
+   
+    margin-bottom:1vh;
+    margin-left: 3vw;
+}
+
+/*===========
+BOTÃO SUBMIT
+============*/
+button{
+    width: 20vh;
+    height:20vh;
+
+    border-radius:50%;
+    
+    border: transparent;
+    color:black;
+    background-color: rgb(143, 205, 255);
+    
+    font-size:1.5em;
+}
+
+button:hover{
+    background-color: green;
+    color:white;
+    transition: 1s;
+    border: transparent;
+}
+
+/*================
+RESPONSIVIDADE
+==================*/
